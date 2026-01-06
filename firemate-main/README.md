@@ -5,8 +5,7 @@
 Firemate is a tool to help firefighters to speed up their response.
 
 ## ❗️  Introduction
-The average response time for firefighters is 45 minutes in some areas in Indonesia, exceeding the national standard of 15 minutes. This is due to the delay in officers receiving information about the fire incident. This causes great loss. To bridge this gap, we created Firemate, an app that speed up firefighters response. We used ESP8266 as the microcontroller, ESP32-CAM, MQ-2 Smoke/Gas sensor, KY-026 flame sensor and NEO-6M GPS Module. <br/>
-With Firemate, we hope Fire Fighter in Bali, Indonesia will got the fire information faster, and hopefully will reduce the loss of fire victim.
+The average response time for firefighters in some areas of Tamil Nadu can exceed the recommended standard of 15 minutes, mainly due to delays in receiving timely information about fire incidents. Such delays often result in significant loss of life and property. To address this issue, we developed Firemate, an IoT-based emergency response system designed to speed up firefighter response. The system uses ESP8266, ESP32-CAM, MQ-2 smoke/gas sensor, KY-026 flame sensor, and NEO-6M GPS module to detect fire incidents and transmit real-time data. Firemate aims to help firefighters in Tamil Nadu receive alerts faster and reduce fire-related losses.
 <br/>
 
 ## 🎯 **Our Goal**
