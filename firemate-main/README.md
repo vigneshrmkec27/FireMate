@@ -30,10 +30,7 @@ With Firemate, we hope Fire Fighter in Bali, Indonesia will got the fire informa
 **Firemate** also uses IOT that utilized ESP8266 as the microcontroller, ESP32-CAM, MQ-2 Smoke/Gas sensor, KY-026 flame sensor and NEO-6M GPS Module, you can check the code and detailed pin connection [here](https://github.com/metot-technologies/firemate-iot). The schematic as shown below.<br/>
 ![IOT-shcematic](https://i.ibb.co/XCVWC96/schematic.png)
 
-## 📽  Demo Video Link
 
- [![Firemate](https://i.ibb.co/MDjQhGP/53836.png)](https://youtu.be/5NMMLgB3WJE)
- 
  <br/>
 
  
