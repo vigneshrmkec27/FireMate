@@ -79,9 +79,3 @@ flutter pub get
 flutter run
 ```
 <br/>
-
-## 👥  Contributors
-
-|[Pantera](https://github.com/BagoesPantera)|[Radika](https://github.com/RadikaBadra)|[Galang](https://github.com/manggalang)|[Angga](https://github.com/AnggaPalguna)|
-|---|---|---|---|
-|<img src="https://github.com/BagoesPantera.png" size="10px">|<img src="https://github.com/RadikaBadra.png">|<img src="https://github.com/manggalang.png">|<img src="https://github.com/AnggaPalguna.png">|
