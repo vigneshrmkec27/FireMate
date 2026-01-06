@@ -1,80 +1,82 @@
-![image](https://i.ibb.co/st0d159/1.png)
+🔥 Firemate – IoT Based Fire Detection & Alert System
+📌 Overview
 
+The average response time for firefighters in some areas of Tamil Nadu can exceed the national standard of 15 minutes, mainly due to delays in receiving fire incident information. Such delays often result in major loss of life and property.
+To address this issue, Firemate is developed as an IoT-based fire detection and alert system that helps firefighters receive real-time fire information quickly and accurately.
 
-<br/>
-Firemate is a tool to help firefighters to speed up their response.
+🎯 Objective
 
-## ❗️  Introduction
-The average response time for firefighters in some areas of Tamil Nadu can exceed the recommended standard of 15 minutes, mainly due to delays in receiving timely information about fire incidents. Such delays often result in significant loss of life and property. To address this issue, we developed Firemate, an IoT-based emergency response system designed to speed up firefighter response. The system uses ESP8266, ESP32-CAM, MQ-2 smoke/gas sensor, KY-026 flame sensor, and NEO-6M GPS module to detect fire incidents and transmit real-time data. Firemate aims to help firefighters in Tamil Nadu receive alerts faster and reduce fire-related losses.
-<br/>
+Reduce firefighter response time
 
-## 🎯 **Our Goal**
+Provide real-time fire alerts
 
-![]<<img width="925" height="326" alt="image" src="https://github.com/user-attachments/assets/a3f0cd3b-cdd7-4d04-9f24-07cfc4adb9dd" />
+Share accurate location details of fire incidents
 
-)
+Minimize loss of life and property
 
-**Firemate** aims to address UN Sustainable Development Goals (SDGs) 9. industry, innovation and infrastructure, 11. sustainable cities and communities, and 17. partnerships for the goals. Our overarching goal is make a new innovation to reduce communities loss and make a partnership with firefighter and goverment. 
-<br><br>
+🛠️ System Components
+Hardware Used
 
-## 🛠  Project Architecure
+ESP8266 Microcontroller
 
-![structure](<img width="927" height="224" alt="image" src="https://github.com/user-attachments/assets/68013fc0-878d-4003-b249-d1d00f25ca88" />
-)
+ESP32-CAM
 
-**Firemate** uses 3 Google Technologies;
-- **Firebase** to connect IOT to the app.
-  - **Realtime Database** to store the data (status, lat, lon, etc).
-  - **Firestore** to save the captured image from ESP32-CAM.
-- **Flutter** as the android app.
-- And **Google Maps** to show direction to the fire incident.
+MQ-2 Smoke/Gas Sensor
 
-**Firemate** also uses IOT that utilized ESP8266 as the microcontroller, ESP32-CAM, MQ-2 Smoke/Gas sensor, KY-026 flame sensor and NEO-6M GPS Module, you can check the code and detailed pin connection [here](https://github.com/metot-technologies/firemate-iot). The schematic as shown below.<br/>
-![IOT-shcematic](https://i.ibb.co/XCVWC96/schematic.png)
+KY-026 Flame Sensor
 
+NEO-6M GPS Module
 
- <br/>
+Software & Technologies
 
- 
- 
-## 👩🏼‍💻  User Guide
-### 01 Home Screen
-| Screen                                | Explanation |
-|---------------------------------------|-------------------------------------------------------|
-|**1) Home Screen** <br/> <br/> <img src="https://i.ibb.co/CJX3n2R/image.png" width="250"/> | Firefighter can see fire incident list that they need to response. <br/> <br/> |
-| **2) Selesai Button** <br/> <br/> <img src="https://i.ibb.co/0Bs1YVL/c0a6bec902.gif" width="250"/> | When "Selesai" button clicked, the fire incident will marked as done. |
-| **3) Lokasi Button** <br/> <br/> <img src="https://i.ibb.co/Bn3dh9r/Screen-recording-20240503-203513.gif" width="250"/> | When "Lokasi" button clicked, the app will open Google Maps and show the direction to the fire incident location. |
-| **4) Preview Image** <br/> <br/> <img src="https://i.ibb.co/mBg8hRB/Screen-recording-20240503-203558.gif" width="250"/> | the image can be viewed to check if there is a true or false notification |
+Firebase Realtime Database
 
-### 02 History Screen
-| Screen                                | Explanation |
-|---------------------------------------|-------------------------------------------------------|
-|<img src="https://i.ibb.co/VJ3Hh6T/image.png" width="250"/> | Firefighter can see history of the fire incident that they already response. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/> <br/> [ User Guide ] <br/>  1. [Lokasi] To open google maps that show direction to the location |
-<br/>
+Firebase Firestore
 
-## 📲  Execution Method
+Google Maps API
 
-###  For Android User
+Flutter (Mobile Application)
 
-1. Download the apk file at [Releases tab](https://github.com/metot-technologies/firemate/releases).
-2. Run the apk file on your phone.
+⚙️ How It Works
 
-### For Dev
+Sensors detect smoke or flame in the environment.
 
-1. Clone the project
-```sh
-git clone https://github.com/metot-technologies/firemate.git
-```
-2. Navigate to the project directory
-```sh
-cd firemate
-```
-3. Install dependencies
-```sh
-flutter pub get
-```
-4. Run the app
-```sh
-flutter run
-```
-<br/>
+ESP8266 processes the data and triggers an alert.
+
+ESP32-CAM captures images of the incident area.
+
+GPS module provides real-time location coordinates.
+
+Data is sent to Firebase for cloud storage.
+
+Firefighters receive alerts via a Flutter mobile app with navigation support using Google Maps.
+
+🚀 Key Features
+
+Real-time fire detection
+
+Live location tracking
+
+Image-based incident monitoring
+
+Faster alert delivery to firefighters
+
+Cloud-based data storage
+
+🌍 Impact
+
+Firemate aims to help firefighters in Tamil Nadu receive fire incident information faster, enabling quicker response and significantly reducing damage and loss caused by fire accidents.
+
+📌 Future Enhancements
+
+AI-based fire severity detection
+
+Automatic emergency calling system
+
+Multi-language mobile app support
+
+Integration with government emergency services
+
+📄 License
+
+This project is developed for academic and learning purposes.
