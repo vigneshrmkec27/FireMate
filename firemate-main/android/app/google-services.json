@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "722455357853",
+    "firebase_url": "https://firemate-420600-default-rtdb.firebaseio.com",
+    "project_id": "firemate-420600",
+    "storage_bucket": "firemate-420600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722455357853:android:608ad3d27f97762fb86774",
+        "android_client_info": {
+          "package_name": "com.example.firemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5prAj-bUiBKR6mMWvy8gGh1zVFrPkFdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
