@@ -10,7 +10,8 @@ The average response time for firefighters in some areas of Tamil Nadu can excee
 
 ## 🎯 **Our Goal**
 
-![](https://i.ibb.co/tMWVjpz/123.png)
+![]<img width="1165" height="671" alt="image" src="https://github.com/user-attachments/assets/ac472e90-0e1a-481a-8e36-580b759c5c95" />
+)
 
 **Firemate** aims to address UN Sustainable Development Goals (SDGs) 9. industry, innovation and infrastructure, 11. sustainable cities and communities, and 17. partnerships for the goals. Our overarching goal is make a new innovation to reduce communities loss and make a partnership with firefighter and goverment. 
 <br><br>
