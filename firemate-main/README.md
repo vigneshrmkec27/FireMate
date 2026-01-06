@@ -11,7 +11,7 @@ The average response time for firefighters in some areas of Tamil Nadu can excee
 ## 🎯 **Our Goal**
 
 ![]<<img width="925" height="326" alt="image" src="https://github.com/user-attachments/assets/a3f0cd3b-cdd7-4d04-9f24-07cfc4adb9dd" />
- />
+
 )
 
 **Firemate** aims to address UN Sustainable Development Goals (SDGs) 9. industry, innovation and infrastructure, 11. sustainable cities and communities, and 17. partnerships for the goals. Our overarching goal is make a new innovation to reduce communities loss and make a partnership with firefighter and goverment. 
@@ -19,7 +19,8 @@ The average response time for firefighters in some areas of Tamil Nadu can excee
 
 ## 🛠  Project Architecure
 
-![structure](https://i.ibb.co/hm3Crjh/3d363564353730.png)
+![structure](<img width="927" height="224" alt="image" src="https://github.com/user-attachments/assets/68013fc0-878d-4003-b249-d1d00f25ca88" />
+)
 
 **Firemate** uses 3 Google Technologies;
 - **Firebase** to connect IOT to the app.
